@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    background-color: darkblue; 
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main{
+    margin-top: 40px;
+    margin-left: 30%;
+
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    background-color: darkblue;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
