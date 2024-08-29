@@ -155,38 +155,24 @@ button:hover{ background-color:  #74dbd8; color: indigo; }
 Story
 *******************************************************************************/
 .storymain{
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
-  justify-items: center;
+text-align: center;
   
 }
 
 .storytitle{
-  grid-column: 2/3;
+
   display: flex;
-  margin: 0 auto;
+justify-content: center;
   gap: 8px;
 
 }
 
-.storyimg1{
+.storyimg{
    margin: 20px;
-   grid-column: 1/2;
-   grid-row: 2/4;
    border: 5px solid indigo;
    box-shadow: 5px 5px 10px black;
 
   }
-
-  .storyimg2{
-   margin: 10px;
-   grid-column: 3/4;
-   grid-row: 3/4;
-   border: 5px solid indigo;
-   box-shadow: 5px 5px 10px black;
-  }
-
 
 /*******************************************************************************
 Characters
